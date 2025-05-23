@@ -1,36 +1,33 @@
 # Byzapp
 
-Byzapp
-Sistema educativo para gestionar exámenes, calificaciones y grupos de estudio. Incluye una app web en React y una API desarrollada en .NET 6.
+**Byzapp** es un sistema educativo diseñado para gestionar exámenes, calificaciones y grupos de estudio. Incluye una aplicación web desarrollada en **React** y una API construida con **.NET 6**.
 
-Instalación
-1. Clona este repositorio
-git clone https://github.com/TU-USUARIO/byzapp.git
+---
+
+## 🛠 Tecnologías utilizadas
+
+### Frontend
+- React
+- CSS Modules / TailwindCSS / Styled Components *(dependiendo del componente)*
+- React Router
+
+### Backend
+- .NET 6 WebAPI
+- Entity Framework Core
+
+### Base de datos
+- SQL Server *(puedes modificar según tu entorno de desarrollo)*
+
+---
+
+## ⚙️ Instalación
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/LuisFerP12/byzapp.git
 cd Byzapp
 
-bash
-
-⟼
-
-2. Instala y ejecuta el frontend
-cd Byzapp_main
-npm install
-npm start
-
-bash
-
-⟼
-
-La app estará en http://localhost:3000.
-
-3. Instala y ejecuta el backend
-cd "API FINAL/apivfinal2.0/apiV6/APIV5MAMALON/ASP.NET6_WebAPI/ASP.NET_WebAPI6"
-dotnet restore
-dotnet run
-
-bash
-
-⟼
 
 La API estará disponible en https://localhost:5001.
 
