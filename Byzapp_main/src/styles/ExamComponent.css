@@ -1,0 +1,84 @@
+body {
+  color: #f5f5f5;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem 0 4rem 0;
+}
+
+.accordion-item {
+  margin: 2rem auto;
+  width: 900px;
+  box-shadow: 0px 5px 26px 2px #928c8c;
+  display: block;
+}
+
+.accordion-total {
+  display: flex;
+  width: 900px;
+}
+.div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats {
+  width: 5%;
+  background-color: #274359;
+  border: none;
+}
+
+.stats:hover {
+  background-color: #5a7c96;
+}
+
+.stats i {
+  color: #f5f5f5;
+  padding: 16px 11px;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: #325671;
+  color: #f5f5f5;
+  font-weight: bold;
+  width: 100%;
+}
+
+.accordion-title-estudiante {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: #325671;
+  color: #f5f5f5;
+  font-weight: bold;
+  width: 100%;
+}
+
+.accordion-title:hover,
+.accordion-title-estudiante:hover {
+  background-color: #5a7c96;
+}
+
+.accordion-title,
+.accordion-title-estudiante,
+.accordion-content {
+  padding: 1rem;
+}
+
+.accordion-content {
+  color: #1b171e;
+  background-color: #f5f5f5;
+}

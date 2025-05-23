@@ -1,0 +1,97 @@
+.profile-card-container {
+  /* Estilos existentes */
+  background-color: white;
+  min-width: 900px;
+  max-width: 1000px;
+  height: 330px;
+  border-radius: 14px;
+  box-shadow: 0px 10px 30px hsl(211, 68%, 50%);
+
+  /* Estilos para centrar */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header {
+	background-image: url("../images/fondodepaleta.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
+	
+  }
+  
+  
+  .profile-image {
+	margin: auto;
+	width: 100px;
+	border: solid white 4px;
+	border-radius: 50%;
+	margin-top: auto;
+	
+  }
+  
+  .profile-name {
+	font-weight: bold;
+	font-size: 1.1rem;
+	text-align: center;
+	padding: 10px 20px 0px 20px;
+  }
+  
+  .profile-subtitle {
+	font-weight: normal;
+	font-size: 0.95rem;
+	color: hsl(0, 0%, 50%);
+	text-align: center;
+	padding-bottom: 10px;
+  }
+  
+  .profile-unique-name {
+	font-weight: normal;
+	font-size: 0.95rem;
+	color: hsl(0, 0%, 50%);
+	text-align: center;
+	padding-bottom: 10px;
+  }
+  
+  /* SOCIAL STATS */
+  .profile-stat-label {
+	font-weight: normal;
+	font-size: 1rem;
+	color: hsl(0, 0%, 50%);
+	text-align: center;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+	line-height: 5px;
+  }
+  
+  .profile-social-container {
+	
+	display: flex;
+	justify-content: center;
+	border-top: solid rgb(206, 206, 206) 1px;
+	text-align: center;
+  }
+  
+
+
+  .profile-followers {
+	flex: 1;
+  }
+  
+  .profile-likes {
+	flex: 1;
+  }
+  
+  .profile-photos {
+	flex: 1;
+  }
+  
+  .profile-stat{
+
+	font-size: 1.9rem;
+  }

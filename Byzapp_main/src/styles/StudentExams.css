@@ -1,0 +1,25 @@
+.container-ver-exams {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.exam-header {
+  text-align: center;
+  color: #3c3c3c;
+  font-size: 2em;
+  margin-top: 0px;
+
+  padding: 10px;
+}
+
+.exam-card {
+  margin: 20px 0;
+  width: 200px;
+  background-color: transparent;
+
+  padding: 10px;
+  border-radius: 10px;
+}

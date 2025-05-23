@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+.organize-groups {
+  margin-top: 120px;
+  background-color: #f2f3f4;
+  padding: 30px 50px 0px 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px;
+  grid-row-gap: 80px;
+  background-color: #f2f3f4;
+}
+
+.background {
+  background-color: #f2f3f4;
+  height: 710px;
+}
+
+.plus-button {
+  position: fixed;
+  background-color: #f2f3f4;
+  font-size: 45px;
+  bottom: 10px;
+  right: 30px;
+  padding: 0px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: transparent;
+}

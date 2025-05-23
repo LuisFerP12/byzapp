@@ -1,0 +1,84 @@
+.leaderboard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leaderboard-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabla {
+  display: inline-block;
+  width: 60%;
+  background-color: #fdfdfd;
+  justify-content: center;
+}
+
+.index-alumno p {
+  width: 50px;
+}
+
+.index-alumno-title p {
+  width: 50px;
+}
+
+.index-alumno,
+.estudiante,
+.calificacion,
+.ver-alumno {
+  display: flex;
+  padding: 10px;
+  text-align: center;
+}
+
+.estudiante p,
+.calificacion p,
+.prebutton {
+  width: 200px;
+}
+
+.ver-alumno button {
+  background-color: #325671;
+  width: 120px;
+  height: 30px;
+  color: #fdfdfd;
+  border: none;
+  border-radius: 5px;
+}
+
+.ver-alumno button:hover {
+  background-color: #233d50;
+  width: 120px;
+  height: 30px;
+  color: #fdfdfd;
+  border: none;
+  border-radius: 5px;
+}
+
+.ver-alumno-title,
+.calificacion-title,
+.estudiante-title,
+.index-alumno-title {
+  display: flex;
+  padding: 10px;
+  color: #fdfdfd;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ver-alumno-title p,
+.calificacion-title p,
+.estudiante-title p {
+  width: 200px;
+}
+
+.tablacolor {
+  background-color: #325671;
+  margin: 0;
+  height: 65px;
+}
+
+.tabla li {
+  margin: 0;
+}

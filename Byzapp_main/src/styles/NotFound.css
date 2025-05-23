@@ -1,0 +1,42 @@
+.not-found-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+  }
+
+  .not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .h10 {
+    font-size: 8rem;
+    margin-bottom: 0;
+    color: #555;
+  }
+
+  .h20 {
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #555;
+  }
+
+  .b404 {
+    background-color: #555;
+    color: #F0F0F0;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .b404:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }

@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+body {
+  background-color: #f2f3f4;
+}
+
+.front-page-containerREG {
+  display: block;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  margin-top: 10px;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+.logo-containerREG {
+  text-align: center;
+  width: 40%;
+  margin-right: 2rem;
+}
+
+.logo {
+  width: 300px; /* modify as needed */
+  height: 150px; /* maintain aspect ratio */
+  object-fit: cover;
+  /* center the logo horizontally with top margin of 20px */
+  display: block; /* make the logo a block-level element */
+  padding: 0px 0px 0px 0px;
+  margin: auto;
+  margin-bottom: -20px;
+  margin-top: -25px;
+}
+
+.formREG {
+  width: 450px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px 15px;
+  border-radius: 5px;
+  background-color: #f2f3f4;
+  display: flex;
+  justify-content: center;
+  align-items: row;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 2px solid #000;
+}
+
+.tipoUsuario {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.formREG .radio label {
+  color: #1b171e;
+  padding: 5px 20px 5px 50px;
+  display: inline-block;
+  position: relative;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.formREG .radio label:hover {
+  background: rgba(50, 86, 113, 0.2);
+}
+
+.formREG .radio label:before {
+  content: "";
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  background: none;
+  border: 3px solid #1b171e;
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+  bottom: 7px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formREG input[type="radio"]:checked + label::after {
+  content: "";
+  width: 9px;
+  height: 9px;
+  display: inline-block;
+  background: none;
+  border: 3px solid #1b171e;
+  border-radius: 50%;
+  background-color: #1b171e;
+  position: absolute;
+  left: 24px;
+  bottom: 11px;
+}
+
+.formREG input[type="radio"] {
+  display: none;
+}
+
+.correo-container {
+  flex-basis: 100%;
+  margin-bottom: 2rem;
+  box-sizing: border-box;
+  border-width: 10px;
+}
+
+.correo-container-error {
+  flex-basis: 100%;
+  margin-bottom: 2rem;
+  box-sizing: border-box;
+  border-width: 10px;
+}
+
+.contraseña-container label {
+  cursor: pointer;
+  position: relative;
+  margin-left: 14em;
+}
+
+.contraseña-container-error label {
+  cursor: pointer;
+  position: relative;
+  margin-left: 14em;
+}
+
+.correo-container input[type="text"],
+.contraseña-container input[type="password"],
+.contraseña-container input[type="text"] {
+  width: 95%;
+  height: 55px;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  box-shadow: 0 0 0 2px #90a2a2;
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+}
+
+.correo-container-error input[type="text"],
+.contraseña-container-error input[type="password"],
+.contraseña-container-error input[type="text"] {
+  width: 95%;
+  height: 55px;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  box-shadow: 0 0 0 2px #ff0000;
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+}
+
+.correo-container input:focus,
+.contraseña-container input:focus,
+.contraseñaConfirm-container input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #5a7c96;
+}
+
+.correo-container-error input:focus,
+.contraseña-container-error input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #9a0101;
+}
+
+.titulo {
+  margin-bottom: 20px;
+}
+hr {
+  height: 1px;
+  background-color: #000;
+}
+
+.crear-cuenta-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crear-cuenta-container2 input[type="submit"] {
+  width: 80%;
+  height: 50px;
+  background: linear-gradient(to right, #506b80, #5a7c96);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 300px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+}
+
+.crear-cuenta-container input[type="submit"]:hover {
+  background: linear-gradient(to right, #506b80, #5a7c96);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}

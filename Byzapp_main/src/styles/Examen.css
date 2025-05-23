@@ -1,0 +1,282 @@
+.examen-form {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 15px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-title {
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+.form-group-dificultades {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.form-input {
+  width: 85%; /* porcentaje*/
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.form-input-answer {
+  width: 80%; /* porcentaje*/
+  margin-left: 5%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.form-input-name {
+  width: 100%; /* porcentaje*/
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.form-radio {
+  margin: 0 10px 0 0;
+}
+
+.form-checkbox {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.question-block {
+  margin-bottom: 0px;
+}
+
+.question-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.answers-block {
+  margin-bottom: 0px;
+}
+
+.answer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -15px;
+}
+
+.add-question-btn,
+.submit-btn {
+  padding: 10px 20px;
+  border: none;
+  width: 166px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.delete-answer-btn {
+  padding: 10px 10px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 0px;
+  width: 15%; /* porcentaje*/
+  height: 45px;
+  vertical-align: middle;
+}
+.boton-centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.boton-derecha {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 0;
+  top: 0;
+}
+.boton-izquierda {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-left: 0;
+  top: 0;
+}
+.add-answer-btn {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 0px;
+  width: 150px;
+  top: -200;
+}
+
+.add-answer-btn img {
+  filter: invert(100%);
+}
+
+.delete-question-btn {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 0px;
+  width: 120px;
+  height: 50px;
+  top: -200;
+}
+
+.delete-question-btn img {
+  filter: invert(100%);
+}
+
+.boton-img {
+  width: 18%;
+}
+.add-answer-btn {
+  background-color: #325671;
+  float: left;
+}
+.add-question-btn {
+  background-color: #325671;
+  float: right;
+}
+
+.delete-answer-btn {
+  background-color: #b00c1d;
+}
+.delete-question-btn {
+  background-color: #b00c1d;
+  float: right;
+}
+.but-sub {
+  float: left;
+  margin: 0;
+}
+.submit-btn {
+  background-color: #006718;
+  float: left;
+}
+/* no borrar, mama si se le agrega a una li */
+.taco {
+  float: left;
+}
+
+li {
+  list-style: none;
+  position: relative;
+  margin-left: 15px;
+  padding: 10px 0;
+}
+
+.listas {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 15%;
+  padding: 0;
+}
+
+.derecha {
+  order: 1;
+}
+.izquierda {
+  order: 2;
+}
+.contenedor {
+  display: inline-block;
+}
+/* .delete-question-btn:hover{
+  color: #fff;
+
+}
+.delete-question-btn span{
+  position: absolute;
+  background-color: #fff;
+  transition: .5s;
+}
+.delete-question-btn span:nth-hild(1) {
+  width: 100%;
+  height: 1px;
+  top: 0;
+  left: -100%;
+}
+
+.delete-question-btn span:nth-hild(2) {
+  width: 100%;
+  height: 1px;
+  top: 0;
+  right: -100%;
+}
+.delete-question-btn span:nth-hild(3) {
+  width: 1%;
+  height: 100px;
+  top: -100%;
+  left: 0%;
+}
+.delete-question-btn span:nth-hild(4) {
+  width: 1%;
+  height: 100px;
+  top: -100%;
+  left: 0%;
+}
+
+.delete-question-btn:hover span:nth-hild(1) {
+  left: 0;
+}
+
+.delete-question-btn.delete-question-btn:hover span:nth-hild(2) {
+  right: 0;
+}
+.delete-question-btn:hover span:nth-hild(3) {
+  bottom: 0;
+}
+
+.delete-question-btn:hover span:nth-hild(4) {
+  top: 0;
+} */
+
+.swal-text {
+  text-align: center;
+}
